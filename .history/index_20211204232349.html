@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+  />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="test">&nbsp;</div>
+      <div class="msPlayer">
+        <h2 for="music Player">Music Player</h2>
+      </div>
+      <div class="boxesContainer" id="boxesContainerPlayOrPause">
+        <img class="circularCoverBox" src="assets/track1.jpg" id="imgId"></img>
+        <div class="trackNameWithToggleBox">
+          <h3 class="h2class" id="title">The A Team - Ed Sheeran</h3>
+        </div>
+        <button class="action-btn next" id="next_btn">
+          <i class="fas fa-forward"></i>
+        </button>
+        <button class="action-btn prev"  id="prev_btn">
+          <!-- <img src="./assets/outline_skip_previous_white_24dp.png" alt="prevBtn"> -->
+          <i class="fas fa-backward"></i>
+        </button>
+        <!-- <audio src="./01 Bruno Mars - Young Girls.mp3" preload="auto" id="audio1"></audio> -->
+        <audio src="./track2.mp3" preload="auto" id="audio1" loop></audio>
+        <button class="action-btn action-btn-big" id="play_icon">
+          <i class="fas fa-play"></i>
+        </button>
+  
+      </div>
+
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

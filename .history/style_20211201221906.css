@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Montserrat:wght@100&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: #ccd5ae;
+  color: #1e6091;
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  /* align-items: ; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.msPlayer {
+  margin-bottom: 10%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.boxesContainer {
+  height: 100px;
+  width: 100%;
+  background-color: #fb8500;
+  position: relative;
+  border-radius: 5px;
+  padding: 3rem;
+}
+.circularCoverBox {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: inherit;
+  /* width: inherit; */
+  border-radius: 50%;
+}
