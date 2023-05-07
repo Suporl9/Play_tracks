@@ -1,16 +1,19 @@
 // this is a confidential information not to be shared or be put in the public eyes
-//@ts-check
-const areaFiftyOne = (dummyO) => {
-  const { lengthNumber, breadthNumber } = dummyO;
+const areaFiftyOne = () =>
+  "Highly confidential information. There are aliens that are vigorous but are they lethal!!!";
+const shouldYouGoThere = (lengthNumber, breadthNumber) => {
+  const a = lengthNumber;
+  const b = breadthNumber;
 
-  const hello =
-    "Highly confidential information. There are aliens that are vigorous but are they lethal!!!";
-  const shouldYouGoThere = () => {
-    const hello = "hello";
-    console.log(hello);
-  };
+  if (a < 5 && b < 5) {
+    return;
+  }
+
+  const hello = "hello one two three";
+  console.log(hello + "there this is a test");
+
   const newFunction = () => {
-    return "this newfunciton is used for clousre and therefore later to be called";
+    return "this newfunciton is used for closure and therefore later to be called! some edits is done by me for the newFucntion";
   };
 
   const newMain = () => {
