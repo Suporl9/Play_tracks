@@ -4,4 +4,6 @@ const areaFiftyOne = () =>
 const shouldYouGoThere = () => {
   const hello = "hello";
   console.log(hello);
+
+  return "lethalCreatures";
 };
