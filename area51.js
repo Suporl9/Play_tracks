@@ -5,5 +5,9 @@ const shouldYouGoThere = () => {
   const hello = "hello";
   console.log(hello);
 
+  const newMain = () => {
+    return "this is the fucntion that i is not reliable so to be deleted when pushing to the production";
+  };
+
   return "lethalCreatures";
 };
