@@ -36,7 +36,7 @@ const shouldYouGoThere = (lengthNumber, breadthNumber) => {
 };
 
 const dummyObj = {
-  lengthNumber: 5,
+  lengthNumber: 7,
   breadthNumber: 6,
 };
 
