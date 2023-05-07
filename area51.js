@@ -12,5 +12,9 @@ const shouldYouGoThere = () => {
     return "this is the fucntion that i is not reliable so to be deleted when pushing to the production";
   };
 
+  // changes made by the admin
+
+  const calculateTheArea = () => {};
+
   const calculateMathForBall = () => {};
 };
