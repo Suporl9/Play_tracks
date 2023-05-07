@@ -4,10 +4,13 @@ const areaFiftyOne = () =>
 const shouldYouGoThere = () => {
   const hello = "hello";
   console.log(hello);
+  const newFunction = () => {
+    return "this newfunciton is used for clousre and therefore later to be called";
+  };
 
   const newMain = () => {
     return "this is the fucntion that i is not reliable so to be deleted when pushing to the production";
-  };
 
-  return "lethalCreatures";
+    return "lethalCreatures";
+  };
 };
