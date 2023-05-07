@@ -13,6 +13,7 @@ const shouldYouGoThere = (lengthNumber, breadthNumber) => {
   console.log(hello + "there this is a test");
 
   const newFunction = () => {
+    const anyH = "anyHow";
     return "this newfunciton is used for closure and therefore later to be called! some edits is done by me for the newFucntion";
   };
 
