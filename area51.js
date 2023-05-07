@@ -5,5 +5,9 @@ const shouldYouGoThere = () => {
   const hello = "hello";
   console.log(hello);
 
+  const newFunction = () => {
+    return "this newfunciton is used for clousre and therefore later to be called";
+  };
+
   return "lethalCreatures";
 };
