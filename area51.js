@@ -17,7 +17,7 @@ const shouldYouGoThere = (lengthNumber, breadthNumber) => {
   };
 
   const newMain = () => {
-    return "this is the fucntion that i is not reliable so to be deleted when pushing to the production";
+    return "this is the function that i is not reliable so to be deleted when pushing to the production";
   };
 
   // changes made by the admin
@@ -30,7 +30,7 @@ const shouldYouGoThere = (lengthNumber, breadthNumber) => {
   const calculateMathForBall = () => {
     return "just some dummy data";
   };
-  
+
   return calculateTheArea();
 };
 
