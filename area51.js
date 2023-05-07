@@ -30,6 +30,8 @@ const shouldYouGoThere = (lengthNumber, breadthNumber) => {
   const calculateMathForBall = () => {
     return "just some dummy data";
   };
+  
+  return calculateTheArea();
 };
 
 const dummyObj = {
